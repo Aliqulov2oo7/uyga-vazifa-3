@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-image: linear-gradient(to bottom, #a82fdf, #460166);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+  padding: 15px 25px;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav__logo__container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav__logo {
+  background-color: black;
+  padding: 7px 7px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+.nav__ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.page__container {
+  margin-top: 4%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.glavni__title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.glavni__text {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 200;
+  padding-left: 0px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 200px;
+  padding: 12px 12px;
+  cursor: pointer;
+  box-shadow: -3px 7px 18px black;
+}
+
+.reklama {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.reklama__container {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, rgb(175, 175, 175), #460166);
+  height: 256.2px;
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+
+.reklama__container h1 {
+  padding-top: 10px;
+}
+
+@media (max-width: 1200px) {
+  .page__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  html {
+    max-width: 1111px;
+  }
+  .glavni__left {
+    order: 2;
+  }
+  .glavni__right {
+    order: 1;
+    justify-content: center;
+  }
+  .glavni__left .btn {
+    text-align: center;
+  }
+}
+@media (max-width: 973px) {
+  .reklama {
+    flex-direction: column;
+    margin-bottom: 3%;
+  }
+}/*# sourceMappingURL=style.css.map */

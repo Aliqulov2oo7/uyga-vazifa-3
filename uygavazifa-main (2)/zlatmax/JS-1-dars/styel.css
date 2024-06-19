@@ -1,0 +1,332 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.div_Link {
+  max-width: 100%;
+  padding: 50px 50px;
+  background-color: #F3F3F3;
+}
+
+.Link_h2 {
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.Link_p {
+  margin-top: 30px;
+  width: 350px;
+  color: rgba(51, 51, 51, 0.5019607843);
+}
+
+.Learn_p {
+  display: block;
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #4BEE6F;
+  margin-top: 20px;
+}
+
+.Dashboard_img {
+  margin-left: 500px;
+  margin-top: -500px;
+}
+
+.img_Dashboard {
+  margin-top: 60px;
+  margin-left: 150px;
+}
+
+.Group_img {
+  margin-left: 150px;
+  position: absolute;
+  margin-top: 80px;
+}
+
+.Wide_h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-left: 850px;
+  margin-top: -400px;
+}
+
+.Consectetur {
+  width: 350px;
+  font-family: sans-serif;
+  color: rgba(51, 51, 51, 0.5019607843);
+  margin-left: 850px;
+  margin-top: 30px;
+}
+
+.Learn_p1 {
+  display: block;
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #4BEE6F;
+  margin-top: 20px;
+  margin-left: 850px;
+}
+
+.SEO-Backlink-be-Ranked {
+  max-width: 100%;
+  height: 750px;
+  background-image: url(./asets/img/Dashboard\ image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 50px;
+}
+.SEO-Backlink-be-Ranked .SEO-Backlink-be-Ranked-contaner {
+  padding: 150px 0;
+}
+.SEO-Backlink-be-Ranked .SEO-Backlink-be-Ranked-contaner h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.SEO-Backlink-be-Ranked .SEO-Backlink-be-Ranked-contaner .p {
+  line-height: 1.5;
+  padding: 20px 0;
+}
+.SEO-Backlink-be-Ranked .SEO-Backlink-be-Ranked-contaner button {
+  padding: 15px 65px;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  background-color: #1FF0D7;
+  box-shadow: 0 50px 20px 5px rgba(0, 0, 0, 0.166);
+  transition: 0.3s ease-in-out;
+}
+.SEO-Backlink-be-Ranked .SEO-Backlink-be-Ranked-contaner button:hover {
+  box-shadow: none;
+  background-color: rgba(16, 213, 98, 0.83);
+}
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: monospace, sans-serif;
+}
+
+.SEO-Backlink-be-Ranked {
+  max-width: 100%;
+  height: 750px;
+  background-image: url(../photo_2024-06-07_09-13-32.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 50px;
+}
+.SEO-Backlink-be-Ranked .SEO-Backlink-be-Ranked-contaner {
+  padding: 150px 0;
+}
+.SEO-Backlink-be-Ranked .SEO-Backlink-be-Ranked-contaner h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.SEO-Backlink-be-Ranked .SEO-Backlink-be-Ranked-contaner .p {
+  line-height: 1.5;
+  padding: 20px 0;
+}
+.SEO-Backlink-be-Ranked .SEO-Backlink-be-Ranked-contaner button {
+  padding: 15px 65px;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  background-color: #1FF0D7;
+  box-shadow: 0 50px 20px 5px rgba(0, 0, 0, 0.166);
+  transition: 0.3s ease-in-out;
+}
+.SEO-Backlink-be-Ranked .SEO-Backlink-be-Ranked-contaner button:hover {
+  box-shadow: none;
+  background-color: rgba(16, 213, 98, 0.83);
+}
+
+.header {
+  position: fixed;
+  padding: 30px 0;
+  width: 1550px;
+}
+
+.header__contaner {
+  max-width: 100%;
+  display: flex;
+  padding: 0 100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.header__contaner .nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 15px;
+}
+.header__contaner .nav li a {
+  color: #fff;
+}
+.header__contaner .nav .nav__button1 {
+  padding: 10px 30px;
+  border-left: solid #fff;
+  color: #fff;
+  font-weight: 600;
+}
+.header__contaner .nav .nav__button2 {
+  padding: 15px 30px;
+  border: solid 3px #fff;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+}
+.header__contaner .nav .nav__button2:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 100px;
+  padding: 30px 150px;
+}
+.cards div {
+  position: relative;
+  padding: 100px 40px;
+}
+.cards div .img1 {
+  position: absolute;
+  left: 80px;
+  top: 140px;
+}
+.cards div h2 {
+  padding: 20px 0;
+}
+.cards div p {
+  padding: 0 30px;
+}
+
+.Not_h2 {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.We_p {
+  font-family: sans-serif;
+  text-align: center;
+  color: #333333;
+  margin-top: 40px;
+}
+
+.Day_p {
+  font-family: sans-serif;
+  text-align: center;
+  color: #333333;
+  margin-top: 40px;
+}
+
+.TRY_button {
+  width: 350px;
+  height: 67px;
+  background-color: #1FF0D7;
+  border-radius: 50px;
+  border: 0;
+  color: #F3F3F3;
+  margin-top: 50px;
+}
+
+.div_Not {
+  margin-top: 100px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../Image\ illustrat.png);
+}
+
+.Your_h2 {
+  text-align: center;
+}
+
+.img_Your {
+  margin-top: 250px;
+  margin-left: 80px;
+}
+
+.SEO-Backlink-be-Ranked-contaner {
+  padding: 150px 0;
+}
+.SEO-Backlink-be-Ranked-contaner h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.SEO-Backlink-be-Ranked-contaner .p {
+  line-height: 1.5;
+  padding: 20px 0;
+}
+.SEO-Backlink-be-Ranked-contaner button {
+  padding: 15px 65px;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  background-color: #1FF0D7;
+  box-shadow: 0 50px 20px 5px rgba(0, 0, 0, 0.166);
+  transition: 0.3s ease-in-out;
+}
+.SEO-Backlink-be-Ranked-contaner button:hover {
+  box-shadow: none;
+  background-color: rgba(16, 213, 98, 0.83);
+}
+
+.SEO-Backlink-be-Ranked-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: 100%;
+  padding: 120px 150px;
+  gap: 100px;
+  text-align: center;
+}
+.SEO-Backlink-be-Ranked-cards div {
+  position: relative;
+  padding: 30px 0;
+}
+.SEO-Backlink-be-Ranked-cards div .img1 {
+  position: absolute;
+  left: 110px;
+  top: 90px;
+}
+.SEO-Backlink-be-Ranked-cards div h2 {
+  padding: 20px 0;
+}
+.SEO-Backlink-be-Ranked-cards div p {
+  padding: 20px 30px;
+  line-height: 1.4;
+}
+
+.Weve-helped {
+  max-width: 100%;
+  padding: 20px 100px;
+}
+.Weve-helped img {
+  display: flex;
+  justify-content: center;
+}
+.Weve-helped h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+.Weve-helped .Weve-helped-contaner {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 20px;
+  padding: 20px 0;
+}
+.Weve-helped .Weve-helped-contaner div {
+  box-shadow: 0 5px 10px black;
+  padding: 10px 10px;
+}/*# sourceMappingURL=styel.css.map */
